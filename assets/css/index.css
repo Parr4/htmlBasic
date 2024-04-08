@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to right,
+            rgba(104, 206, 224, 0.5),
+            rgba(255, 112, 224, 0.5)), url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid rgba(132, 39, 175, 0.466);
+    padding: 10vh;
+}
+
+h1 {
+    color: rgb(184, 252, 157);
+    text-shadow: 5px 4px 3px rgba(53, 21, 59);
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 4vh;
+    color: rgb(184, 252, 157);
+    text-shadow: 4px 4px 2px rgba(53, 21, 59);
+}
+
+/* Main */
+body {
+    background-color: rgba(255, 255, 255, 0.356);
+    background-image: url("../soju.png");
+    backdrop-filter: blur(5px);
+    background-size: 70vh;
+    background-position-y: center;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+main {
+    background-color: rgba(65, 65, 65, 0.63);
+    border-right: 5px solid rgba(0, 0, 0, 0.158);
+    border-left: 5px solid rgba(0, 0, 0, 0.158);
+}
+
+
+main img {
+    height: 20vw;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+h3 {
+    font-size: 3.5vh;
+}
+
+h4 {
+    font-size: 3vh;
+}
+
+p {
+    font-size: 1.5vh;
+}
+
+.product {
+    color: white;
+    padding: 10vh 0;
+    margin: auto;
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.description {
+    display: block;
+}
+
+.title {
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 40px;
+    color: white;
+    font-size: 6vh;
+    padding: 2.5vh;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-image: linear-gradient(to left,
+            rgba(104, 206, 224, 0.5),
+            rgba(255, 112, 224, 0.5)), url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10vh;
+    border-top: 5px solid rgba(132, 39, 175, 0.466);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer>* {
+    color: rgb(184, 252, 157);
+    text-shadow: 1px 3px 3px rgba(53, 21, 59)
+}
+
+.igicon {
+    height: 1vw;
+}
+
+a {
+    color: pink;
+}
+
+li {
+    font-size: 2vh;
+}
